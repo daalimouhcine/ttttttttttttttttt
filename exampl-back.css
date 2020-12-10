@@ -1,0 +1,328 @@
+
+/* Custom */
+
+.hidden{
+	display: none !important;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-bottom: 80px !important;
+}
+
+body {
+    height:100%;
+}
+
+
+
+
+
+
+
+
+* {
+    box-sizing:border-box;
+    margin:-2px;
+    padding:0;
+}
+
+
+/*Background inside container start*/
+.card.blue-grey.darken-1.hoverable {
+    background: linear-gradient(to right, #d153ebcc, rgba(190, 110, 201, 0.541), rgba(229, 175, 236, 0.589), rgba(190, 110, 201, 0.541), #d153ebcc);
+}
+/*Background inside container end*/
+
+
+.white{
+    color: white !important;
+}
+
+
+body {
+    
+    overflow:hidden;
+    text-align:center;
+}
+    
+
+.figure_name {
+    animation:wobble 5s ease-in-out infinite;
+    transform-origin:center center;
+    transform-style:preserve-3d;
+    font-size: 4px;
+    margin: -5em 0;
+    margin-bottom: 65px;
+}
+
+@keyframes wobble {
+    0%,100%{ transform:rotate3d(1,1,0,20deg); }
+    25%{ transform:rotate3d(-1,1,0,20deg); }
+    50%{ transform:rotate3d(-1,-1,0,20deg); }
+    75%{ transform:rotate3d(1,-1,0,20deg); }
+}
+
+h1 {
+    display:block;
+    width:100%;
+    line-height:1.5;
+    font:900 9em 'Concert One', sans-serif;
+    text-transform:uppercase;
+    position:absolute;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+:-ms-input-placeholder {
+    color:#fff;
+}
+::-webkit-input-placeholder {
+    color:#fff;
+}
+
+input[type=text]+label:after{
+    display:block;content:"";
+    position:absolute;
+    top:65px;
+    opacity:0;
+    transition:.2s opacity ease-out,.2s color ease-out
+}
+.fa-name{
+    background-color:#fff!important;
+    padding:0 5px!important;
+    margin:5px 0 0!important;
+    border:1px solid #e60e40!important;
+    height:40px!important
+}
+.cretewishes,.no-margin-bottom{
+    margin-bottom:0
+}
+.input-field label.active{
+    font-size:.8rem;
+    -webkit-transform:translateY(-160%);
+    transform:translateY(-160%)
+}
+p.head.name{
+    word-wrap:break-word;
+    font-size:40px;
+    font-family:sans-serif;
+    text-shadow:1px 1px 5px rgba(0,0,0,.5);
+    color:#f5f5f5
+}
+input#mce-names{
+    width:100%!important;
+    margin-top:20px!important
+}
+.sp #whatsappicon{
+    width:35px
+}
+.bdaywish{
+    font-size:16px;
+    padding-top:5px;
+    font-weight:700
+}
+.bottomadd,.no-pad{
+    padding:0!important
+}
+h2.sp{
+    margin-top:10px!important
+}
+#whatsappicon{
+    width:20px;
+    vertical-align:text-bottom
+}
+.ctewish{
+    font-size:2.2rem
+}
+#username{
+    color:#000
+}
+.bottomadd{
+    position:relative;
+    margin-left:-21px!important
+}
+p#error-display{
+    color:red;
+    font-size:16px;
+    text-shadow:1px 0 11px #fff
+}
+.wishgo{
+    padding:0 1rem;
+    height:42px;
+    width:100%
+}
+.butndiv{
+    padding:5px 5px 0;
+    margin-left:0!important;
+    margin-right:0!important;
+    padding-right:0!important;
+    padding-left:0!important;
+    margin-top:20px
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+
+.linear-wipe {
+    text-align: center;
+    background: linear-gradient(to right, rgb(225, 0, 255) 20%, #9742e6 40%, #b900a1 60%, #9d38fc 80%);
+    background-size: 200% auto;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Lobster';
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 1s linear infinite;
+    animation: shine 1s linear infinite;
+    transition: all linear 0.2s;
+    transform-style: preserve-3d;
+    animation: nam 2s infinite alternate ease-in-out -7.5s;
+    transform: rotateY(10deg) rotateX(23deg) translateZ(0);
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.18);
+}
+
+@-webkit-keyframes shine {
+    to {
+    transform: translateY(0);
+    background-position: 200% center;
+    }
+}
+@keyframes shine {
+    to {
+    transform: translateY(0.2em);
+    background-position: 200% center;
+    }
+}
+
+@-webkit-keyframes nam {
+    to {
+    transform: translateY(0.3em);
+    background-position: 200% center;
+    }
+}
+@keyframes nam {
+    to {
+    transform: translateY(0.3em);
+    background-position: 200% center;
+    }
+}
+
+
+
+/*Float share*/
+
+
+.float-share {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 50;
+}
+
+/*--------------------------*/
+
+
+
+
+
+
+/*------------------------*/
+
+/*Sticky input start*/
+
+.name input[type=name] {
+    left: 3px;
+    width: 65%;
+    
+}
+.go, .name input[type=name] {
+    
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #e60e40;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 45px;
+    text-transform: none;
+    
+}
+.go, .name input[type=name], .sticky {
+    padding: 8px;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    z-index: 12;
+}
+.go {
+    right: 2px;
+    width: 30%;
+}
+a {
+    color: #fff;
+}
+
+.float-share {
+    width: 100%;
+    position: fixed;
+    z-index: 80px;
+    left: 0;
+}
+
+
+a.whatsapp-btn{
+    height: 43px; 
+    border-radius: 7px; 
+    width: 100% !important;
+}
+
+
+.whatsapp-icon{
+    float: left;
+    margin-top: -29px;
+    margin-left: 56px;
+    width: 20px;
+}
+
+.kakao-icon{
+    float: left;
+    margin-top: -38px;
+    margin-left: 56px;
+    width: 40px;
+}
+
+
+
+
+.whatsapp-share-text{
+    font-size: 17px;
+    margin-top: 4px !important;
+    margin-left: 13px;
+}
+
+/*Sticky input end*/
+
+
+
